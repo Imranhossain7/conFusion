@@ -16,16 +16,14 @@
 
             }
         });
-    })
 
-    $(document).ready(function(){
-    $('#reserve').click(function(){
-        $('#reserveModal').modal('toggle');
-    })    
+        $('#reserve').click(function(){
+            $('#reserveModal').modal('toggle');
+        }) 
+
+        $('#login').click(function(){
+            $('#loginModal').modal('toggle');
+        })  
     });
 
-    $(document).ready(function(){
-    $('#login').click(function(){
-        $('#loginModal').modal('toggle');
-    })    
-    });
+    
